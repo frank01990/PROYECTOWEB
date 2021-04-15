@@ -1,0 +1,108 @@
+body {
+    background-color: brown;
+}
+
+.conteiner {
+    background-color: brown;
+}
+
+.header {
+    background-color: rgba(42, 165, 104, 0.74);
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion {
+    float: left;
+}
+
+#contenedorhym {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 17, 255, 0.199);
+}
+
+.abajo_del_perro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenido {
+    display: flex;
+    background-color: rgba(148, 255, 127, 0.308);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+.principal {
+    background-color: whitesmoke;
+}
+
+.redes {
+    width: 100%;
+    text-align: center;
+}
+
+.redes ul li {
+    background-color: white;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.redes img {
+    height: 32px;
+    text-align: right;
+    width: 100%;
+}
+
+.lateral_1,
+.lateral_2 {
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+    background-color: white;
+    font-family: verdana;
+}
+
+.nav-link {
+    color: white;
+}
+
+.lateral_1 img {
+    text-align: right;
+    width: 100%;
+}
+
+.lateral_2 img {
+    width: 50%;
+}
+
+.contenedor-inferior {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+}
+
+@media screen and (max-width:720px) {
+    .header {
+        flex-direction: column;
+    }
+    .footer {
+        display: none;
+    }
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
